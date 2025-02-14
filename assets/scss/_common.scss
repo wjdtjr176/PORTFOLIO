@@ -1,0 +1,62 @@
+
+
+
+html{
+    position: relative;
+}
+body{
+    position: relative;
+    font-size: 12px;
+    font-family: sans-serif;
+    background: rgb(235, 235, 235);
+}
+// html{
+//     overflow-y: scroll; /* 스크롤 유지 */
+//     scrollbar-width: none; /* Firefox용 */
+// }
+// html::-webkit-scrollbar {
+//     display: none; /* Chrome, Safari용 */
+// }
+
+
+.cursor{
+    font-family: "Mriya Grotesk";
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #900;
+    pointer-events: none;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    transition:  background-color .3s, width .3s, height .3s;
+    &.active{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    }
+    &.active::after{
+        content: "";
+        font-size: 16px;
+        color: #000;
+    }
+    &.logo{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    }
+    &.logo::after{
+        content: "Copy Email";
+        font-size: 16px;
+        color: #000;
+    }
+    &.logo.copied::after{
+        content: "Copied!";
+    }
+}
