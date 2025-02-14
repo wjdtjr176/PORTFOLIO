@@ -5,7 +5,6 @@
 const visual = gsap.timeline({
     
 })
-
 visual.from(".logo-area span",{
     yPercent:"200",
     opacity:0,
@@ -16,6 +15,12 @@ visual.from(".nav-area",{
     yPercent:"100",
     opacity:0
 })
+visual.from(".video-area",1,{
+    yPercent:"300",
+    opacity:0,
+    ease: "power2.out",
+})
+
 
 
 
