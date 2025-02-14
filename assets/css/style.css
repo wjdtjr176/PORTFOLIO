@@ -49,24 +49,26 @@ li {
 
 @font-face {
   font-family: "Mriya Grotesk";
-  src: url(/assets/font/Lezze0U70pJEPJ0WQDqnI3ABU.woff2) format("woff2");
+  src: url(../font/Lezze0U70pJEPJ0WQDqnI3ABU.woff2) format("woff2");
+  font-style: normal;
 }
 @font-face {
   font-family: "Manrope";
-  src: url(/assets/font/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+  src: url(../font/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+  font-style: normal;
 }
 @font-face {
   font-family: "NanumSquareNeo";
-  src: url(/assets/font/NanumSquareNeo-Variable.woff2) format("woff2");
+  src: url(../font/NanumSquareNeo-Variable.woff2) format("woff2");
   font-weight: 100 900;
 }
 @font-face {
   font-family: "NanumSquareNeoalt";
-  src: url(/assets/font/NanumSquareNeoTTF-aLt.woff2) format("woff2");
+  src: url(../font/NanumSquareNeoTTF-aLt.woff2) format("woff2");
 }
 @font-face {
   font-family: "pretendard";
-  src: url(/assets/font/PretendardVariable.woff2) format("woff2");
+  src: url(../font/PretendardVariable.woff2) format("woff2");
   font-weight: 100 900;
 }
 html {
