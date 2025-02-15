@@ -700,6 +700,7 @@ body {
   }
   .sc-recommend .group-recommend .list .item .text-area {
     padding-bottom: 30px;
+    margin-top: 10px;
   }
   .sc-recommend .group-recommend .list .item .flex2 {
     font-size: 10px;
