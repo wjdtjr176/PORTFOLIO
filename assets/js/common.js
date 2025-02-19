@@ -52,7 +52,7 @@ $('.nav-list .nav-item a').click(function(e){
     window.scrollTo({top:targetOffset,behavior:"smooth"})
     
 })
-areaArr = ['#about','#project'];
+areaArr = ['#about','#project','#footer'];
 
 //하단에서 이동
 $('#footer .top .right-wrap a').click(function(e){
