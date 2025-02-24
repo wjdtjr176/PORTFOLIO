@@ -10,6 +10,11 @@
     background: rgb(235, 235, 235);
     .video-area{
         padding: 100px 50px;
+        video{
+            width:100% ;
+            height:100% ;
+            object-fit:cover ;
+        }
     }
 }
 
